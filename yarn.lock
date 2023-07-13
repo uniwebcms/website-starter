@@ -1894,14 +1894,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:0.2.7":
-  version: 0.2.7
-  resolution: "@uniwebcms/express@npm:0.2.7"
+"@uniwebcms/express@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@uniwebcms/express@npm:1.0.0"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
     "@react-google-maps/api": ^2.17.1
-    "@uniwebcms/module-sdk": ^1.6.1
+    "@uniwebcms/module-sdk": ^1.7.1
     flowbite-react: ^0.4.9
     react-icons: ^4.6.0
     react-spinners: ^0.13.8
@@ -1909,7 +1909,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: a83686fcf90d984e7b1d04c0eeb87ed4ce0f79ed1296e492aa673411f0b74a0170ceabb6694f77b4b05fc533750bcceb490b52bf80c10dd290abc1f8f6dbb010
+  checksum: 1791bf5bb6c591e6d112fc127a2a58ca89245a569047f6de0f18908d3504f8b5b0ed6031476790b3d30582b4b3b6a253ed03ecdc58e52e9855162f841bd51c5f
   languageName: node
   linkType: hard
 
@@ -1940,19 +1940,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/module-sdk@npm:^1.6.1":
-  version: 1.6.2
-  resolution: "@uniwebcms/module-sdk@npm:1.6.2"
+"@uniwebcms/module-sdk@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "@uniwebcms/module-sdk@npm:1.7.1"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
     "@react-google-maps/api": ^2.17.1
+    dompurify: ^3.0.4
     react-icons: ^4.6.0
     tailwind-merge: ^1.13.2
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 0ca6669d706fe13c2724a8c2f50201e2ee55c2242c5fc6296b2d27d27852d4a344e840b460f11c5896c17ace5f63086303183752ae43956a2231ba08ceddc46f
+  checksum: 43f544593c558520b9bbdffaf38424fc085c6693dd931e77a1f0e5d9b89e4488560da3a10f270f53cc0d80ea21c534bc47e7368bfa511ae7010f56a995db8b4c
   languageName: node
   linkType: hard
 
@@ -2900,6 +2901,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dompurify@npm:^3.0.4":
+  version: 3.0.5
+  resolution: "dompurify@npm:3.0.5"
+  checksum: 2d9421570c833ce26ce7022955241749b646d41e8bf453f42ede9f22d0e98af482cedb7dfbf8129419eb48b351c1d677a08fc9f1cd91836ce7f6c1807a0676b2
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:^10.0.0":
   version: 10.0.0
   resolution: "dotenv@npm:10.0.0"
@@ -3101,7 +3109,7 @@ __metadata:
   resolution: "express-collection@workspace:src/ExpressCollection"
   dependencies:
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": 0.2.7
+    "@uniwebcms/express": 1.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4

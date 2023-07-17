@@ -39,6 +39,7 @@ jobs:
                   repository_name=${GITHUB_REPOSITORY#*/}
                   public_url=https://${owner_name}.github.io/${repository_name}
                   echo "GH_PAGES_URL : $public_url"
+                  echo "GH_PAGES_URL=${public_url}" >> $GITHUB_ENV
 
             - name: Build
               run: |

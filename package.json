@@ -16,6 +16,6 @@
         "build:prod-commit": "cd builder && yarn run build:prod-commit",
         "build:prod-copy": "cd builder && yarn run build:prod-copy",
         "build:prod-copy-commit": "cd builder && yarn run build:prod-copy-commit",
-        "serve": "cd server && yarn run serve"
+        "serve": "cd builder && yarn run serve"
     }
 }

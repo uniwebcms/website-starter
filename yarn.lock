@@ -2064,9 +2064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/module-builder@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@uniwebcms/module-builder@npm:1.2.3"
+"@uniwebcms/module-builder@npm:^1.2.4":
+  version: 1.2.4
+  resolution: "@uniwebcms/module-builder@npm:1.2.4"
   dependencies:
     "@tailwindcss/nesting": ^0.0.0-insiders.565cd3e
     autoprefixer: ^10.4.13
@@ -2090,7 +2090,7 @@ __metadata:
     postcss-loader: ^7.0.2
     style-loader: ^2.0.0
     webpack: ^5.74.0
-  checksum: 9223f49364861052aeb17cb8e7e64645328d538f058933becc7b00e531d915dd424cffb34f2b290b45b9bcc50c1a5a935b79c72ea489788cb927365ee4d66424
+  checksum: c916f211d9bea12180464eb0d68258b20ba82dc05e1ceffb133b7cfd34cd8cf072f0db171c0a8fe64e3c291d96eed8fedfd4b1ea794ae5a02388bb4dae152c16
   languageName: node
   linkType: hard
 
@@ -2741,7 +2741,7 @@ __metadata:
     "@babel/preset-env": ^7.13.12
     "@babel/preset-react": ^7.13.13
     "@svgr/webpack": ^5.5.0
-    "@uniwebcms/module-builder": ^1.2.3
+    "@uniwebcms/module-builder": ^1.2.4
     babel-loader: ^8.2.2
     cloudflared: ^0.4.0
     css-loader: ^5.2.0

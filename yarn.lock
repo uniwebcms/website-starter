@@ -2268,9 +2268,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@uniwebcms/express@npm:1.0.2"
+"@uniwebcms/express@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@uniwebcms/express@npm:2.1.0"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
@@ -2283,7 +2283,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: 0b9f7dcbe2d5a9f6dd753770c6203573019536495d990647162302f09593a75012c8b8b47c713089bc944420ab02f5ea8fbb244bdf873c765710c67c5ffdfad1
+  checksum: 1ba48fba0cf1b448083f690c6345562e9800a9da20a9f3741a40d8873573da80a93a69abf278ad262c9fd9f7a101abd21c3cb3384d226db18fc518ebfb0d87e2
   languageName: node
   linkType: hard
 
@@ -3904,7 +3904,7 @@ __metadata:
   resolution: "express-collection@workspace:src/ExpressCollection"
   dependencies:
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": ^1.0.2
+    "@uniwebcms/express": ^2.1.0
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
